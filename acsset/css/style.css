@@ -1,0 +1,456 @@
+/* Reset css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+htlm {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Commom */
+
+.mt16 {
+    margin-top: 16px !important; 
+}
+
+.mt32 {
+    margin-top: 32px !important; 
+}
+
+.opacity {
+    opacity: 0.6 !important;
+}
+/* Main */
+.main {
+
+}
+
+.size12 {
+    font-size: 12px !important;
+}
+
+/* Header */
+.header {
+    height: 46px;
+    background-color: #422912;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.header__logo {
+
+}
+
+.header__logo-name {
+    font-size: 29px;
+    color: #fff;   
+    text-align: left;
+}
+
+.header__logo-name-coffee {
+    color: #D8904B;
+}
+
+.header__nav {
+
+    display: flex;
+    justify-content: center; /* Căn giữa nav */
+}
+
+.header__nav li {
+    display: inline-block;
+
+}
+
+.header__nav li a {
+    display: inline-block;;
+    text-decoration: none;
+    padding: 0 24px;
+    color: #fff;
+    line-height: 46px;
+    
+    
+}
+
+.header__logo:hover,
+.header__order:hover,
+.header__nav li:hover a {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.header__order {
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 142px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+}
+
+.header__order a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__order-icon {
+    margin-left: 8px;
+    color: #D8904B;
+    font-size: 14px;
+}
+
+.slider {
+    background-color: #422912;
+    height: 500px;
+    padding: 80px 120px;
+}
+
+.slider__content {
+    width: 100%;
+}
+
+.slider__content-title {
+    color: #fff;
+    font-size: 15px;
+}
+
+.slider__content-inform {
+    color: #fff;
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.slider__content-inform-style {
+    color: #D8904B;
+    text-decoration: none;
+    font-size: 48px;
+}
+
+.slider__content-desc {
+    margin-top: 10px;
+    color: #EAEAEB;
+    font-size: 14px;
+}
+/* 
+.slider__btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+} */
+
+.slider__btn {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%; /* Để toàn bộ chiều rộng được bao phủ */
+    position: relative; /* Đặt để căn chỉnh tương đối các phần tử bên trong */
+}
+
+.slider__content-button{
+    float: left; /* Các nút sẽ nằm bên trái */
+    margin-right: 10px; /* Khoảng cách giữa các nút */
+}
+
+.slider__content-btn {
+
+}
+
+.slider__content-count {
+    float: right; /* Đặt thẻ div nằm bên phải */
+    color: #000;
+    font-size: 14px;
+    
+}
+
+
+.slider__content-count-price {
+    border-radius: 12px;
+    text-align: end;
+    width: 150px;
+    height: 140px;
+    background-color: #fff;
+}
+
+.slider__content-count-name {
+    color: #262626;
+}
+
+.slider__content-count-btn {
+    
+}
+
+.slider__content-btn {
+    height: 40px;
+    padding: 0 24px;
+}
+
+.slider__content-btn-service{
+    color: #000;
+    background-color: #D8904B;
+    border: none;
+    transition: .3s;
+}
+
+.slider__content-btn-sub {
+    color: #fff;
+    background-color: #422912;
+    border: 1px solid rgb(255,255,255,0.3);
+    transition: .3s;
+    margin-left: 20px;
+}
+
+.slider__content-btn:hover,
+.slider__content-btn-service:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}   
+
+.slider__content-quantity {
+    margin-top: 15px;
+    display: flex;
+    gap:  40px;
+    color: #fff;
+}
+
+.slider__content-time-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.slider__content-time-desc {
+    opacity: 0.6;
+    font-size: 12px;
+    margin-top: 10px;
+} 
+
+/* Content */
+.content {
+    
+}
+
+.content__section {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.content__section-about {
+    width: 50%;
+    /* padding: 50px 100px; */
+}
+
+.content__about-section-img {
+    width: 100%;
+}
+
+.content__about-section-content {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    padding: 0 140px;
+    /* float: right; */
+    height: 200px;
+    
+    
+}
+
+.content__about-section-content-title {
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.content__about-section-content-heading {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.content__about-section-content-para {
+    color: #A8A8A8;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.content__about-section-info {
+    margin-top: 32px; 
+}
+
+.content__about-section-btn {
+    padding: 8px 15px;
+    background-color: #D8904B;
+    border: none;
+    border-radius: 24px;
+    color: #fff;
+}
+
+.content__about-section-btn-icon {
+    margin-left: 5px;
+}
+
+.content__about-section-phone {
+    background-color: #fff;
+    border: none;
+    margin-left: 24px;
+}
+
+.content__about-section-btn:hover,
+.content__about-section-phone:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.content__section-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;;
+}
+
+.content__section-menu-para {
+    font-size: 15px;
+}
+
+.content__section-menu-title {
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.content__section-menu-content {
+    
+}
+
+.content__section-tea {
+    overflow: hidden; /
+}
+    
+.content__about-section-tea-content {
+    float: left; /* Đặt phần tử này nằm ở bên trái */
+    width: 100%; /* Chiếm 60% chiều rộng của container */
+    padding: 50px 100px;
+    box-sizing: border-box;
+}
+
+.content__about-section-tea-content-title {
+    font-size: 15px;
+}
+
+.content__about-section-tea-content-heading {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.content__about-section-tea-content-para {
+    margin-top: 15px;
+}
+
+.content__about-section-tea-img {
+    max-width: 100%;
+    margin-top: auto;
+
+}
+
+.content__about-section-tea-info {
+    margin-top: 20px;
+}
+
+.content__about-tea-section-btn, 
+.content__about-tea-section-phone {
+    display: inline-block;
+    margin-right: 10px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D8904B;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.content__about-tea-section-phone {
+    background-color: #fff;
+    color: #A8A8A8;
+}
+
+.content__about-tea-section-btn i,
+.content__about-tea-section-phone i {
+    margin-right: 8px; 
+}
+
+.content__section-tea-about {
+    float: right; 
+    width: 50%; /* Chiếm 35% chiều rộng của container */
+    padding: 50px 100px;
+}
+
+/* footer */
+.footer {
+
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between; /* Đảm bảo khoảng cách đều nhau giữa các phần tử */
+    padding: 130px 100px;
+    background-color: #20161E; /* Ví dụ về màu nền */
+}
+
+.footer__info-about-social-icon {
+    color: #EEECE7;
+}
+
+.footer__info-about-social-icon:hover {
+    cursor: pointer;
+
+    opacity: 0.6;
+}
+
+.footer__info-about,
+.footer__info-help,
+.footer__info-company,
+.footer__info-contact {
+    width: 22%; /* Điều chỉnh để các phần tử đều nhau, tổng cộng khoảng 100% */
+    color: #fff;
+}
+
+.footer__info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer__info-about-social {
+    display: flex;
+    gap: 10px; /* Khoảng cách giữa các biểu tượng mạng xã hội */
+}
+
+.footer__info-help-us, 
+.footer__info-company-us {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__info-help-us li, 
+.footer__info-company-us li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer__info-contact p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer__info-contact-icon {
+    margin-right: 5px;
+    color: #EEECE7;
+}
